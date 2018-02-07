@@ -130,6 +130,7 @@ def who_goes_first():
 def play_again():
     return raw_input('Do you want to play again? ').lower().startswith('y') 
     
+#start game
 print ('Welcome to tic-tac-toe!')
 while True:
 
